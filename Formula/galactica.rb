@@ -11,7 +11,7 @@ class Galactica < Formula
 		sha256 "2b9718be22f264ea0889e854cd2b85d1f8bbeed2040132bdcd19f50e0fc77a7c"
 
 	end
-	version "beta-rc.1c"
+	version "beta-rc.1d"
   
 	def install
 	  bin.install "galactica"
