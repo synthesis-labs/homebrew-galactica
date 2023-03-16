@@ -4,15 +4,15 @@ class Galactica < Formula
 	homepage "https://github.com/synthesis-labs/galactica-cli"
 
 	on_intel do
-		url "https://github.com/synthesis-labs/galactica-cli/releases/download/beta-rc.1/galactica-x86_64-apple-darwin-0.1.0+build.23.f5a12e2.tar.gz"
-		sha256 "d37756338aea7021b21f1c50adea183a4148b37a3b60c040b241be789da2bfb3"
+		url "https://github.com/synthesis-labs/galactica-cli/releases/download/beta-rc.1/galactica-x86_64-apple-darwin-0.1.0+build.53.ef9a0f8.tar.gz"
+		sha256 "87db8ef66585c1910e7dfcd8548392a1880bdb854b2d629018ad88e5507f42d7"
 	end
 	on_arm do
-		url "https://github.com/synthesis-labs/galactica-cli/releases/download/beta-rc.1/galactica-aarch64-apple-darwin-0.1.0+build.23.f5a12e2.tar.gz"
-		sha256 "fb4286df97b670502c865aa0f4f607a35058186051fe56e9812932bce6882130"
+		url "https://github.com/synthesis-labs/galactica-cli/releases/download/beta-rc.1/galactica-aarch64-apple-darwin-0.1.0+build.53.ef9a0f8.tar.gz"
+		sha256 "31d232ec6fa6d8654b797c5836b28274616762450a6194684d295126e7b25d54"
 	end
 
-	version "beta-rc.1g"
+	version "beta-rc.1h"
   
 	def install
 	  bin.install "galactica"
